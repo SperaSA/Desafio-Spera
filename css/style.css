@@ -2,18 +2,40 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 h1{
-    font-family: 'Courier New', Courier, monospace
-    color blue;
+    color: rgb(255, 255, 255);
 }
 
 .hola{
-    background-color: rgb(18, 100, 46);
+    background-color: antiquewhite;
     text-align: center;
     max-width: 650px;
     margin: 15px auto;
+}
+
+.hola:hover{
+    background-color: aqua;
+    color: black;
+    transition: .5s;
+    transform: scale(1.2);
+
+}
+
+h1:hover{
+    color: black
+    
+}
+
+img{
+    filter: grayscale(1);
+    transition: .8s;
+}
+
+img:hover{
+    filter: grayscale(0);
 }
 
 .flex-index{
