@@ -8,3 +8,16 @@ h1{
     font-family: 'Courier New', Courier, monospace
     color blue;
 }
+
+.hola{
+    background-color: rgb(18, 100, 46);
+    text-align: center;
+    max-width: 650px;
+    margin: 15px auto;
+}
+
+@media (max-width: 650px){
+    .hola{
+        background-color: bisque;
+    }
+}
